@@ -18,7 +18,8 @@ const routes: Routes = [
   {
     path: 'play',
     loadChildren: () => import('./play/play.module').then( m => m.PlayPageModule)
-  },  {
+  },
+  {
     path: 'account',
     loadChildren: () => import('./account/account.module').then( m => m.AccountPageModule)
   },
@@ -29,6 +30,18 @@ const routes: Routes = [
   {
     path: 'userprogress',
     loadChildren: () => import('./userprogress/userprogress.module').then( m => m.UserprogressPageModule)
+  },
+  {
+    path: 'question-pool',
+    loadChildren: () => import('./question-pool/question-pool.module').then( m => m.QuestionPoolPageModule)
+  },
+  {
+    path: 'result',
+    loadChildren: () => import('./result/result.module').then( m => m.ResultPageModule)
+  },
+  {
+    path: 'socialmedia',
+    loadChildren: () => import('./socialmedia/socialmedia.module').then( m => m.SocialmediaPageModule)
   },
 
 ];
