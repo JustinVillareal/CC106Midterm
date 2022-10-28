@@ -42,7 +42,11 @@ const routes: Routes = [
   {
     path: 'socialmedia',
     loadChildren: () => import('./socialmedia/socialmedia.module').then( m => m.SocialmediaPageModule)
+  },  {
+    path: 'menu-tab',
+    loadChildren: () => import('./menu-tab/menu-tab.module').then( m => m.MenuTabPageModule)
   },
+
 
 ];
 
