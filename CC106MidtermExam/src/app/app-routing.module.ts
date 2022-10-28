@@ -18,9 +18,18 @@ const routes: Routes = [
   {
     path: 'play',
     loadChildren: () => import('./play/play.module').then( m => m.PlayPageModule)
-  },  {
+  },
+  {
     path: 'account',
     loadChildren: () => import('./account/account.module').then( m => m.AccountPageModule)
+  },
+  {
+    path: 'leaderboards',
+    loadChildren: () => import('./leaderboards/leaderboards.module').then( m => m.LeaderboardsPageModule)
+  },
+  {
+    path: 'userprogress',
+    loadChildren: () => import('./userprogress/userprogress.module').then( m => m.UserprogressPageModule)
   },
   {
     path: 'question-pool',
@@ -33,7 +42,11 @@ const routes: Routes = [
   {
     path: 'socialmedia',
     loadChildren: () => import('./socialmedia/socialmedia.module').then( m => m.SocialmediaPageModule)
+  },  {
+    path: 'menu-tab',
+    loadChildren: () => import('./menu-tab/menu-tab.module').then( m => m.MenuTabPageModule)
   },
+
 
 ];
 
