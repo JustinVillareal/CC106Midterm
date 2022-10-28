@@ -22,6 +22,18 @@ const routes: Routes = [
     path: 'account',
     loadChildren: () => import('./account/account.module').then( m => m.AccountPageModule)
   },
+  {
+    path: 'question-pool',
+    loadChildren: () => import('./question-pool/question-pool.module').then( m => m.QuestionPoolPageModule)
+  },
+  {
+    path: 'result',
+    loadChildren: () => import('./result/result.module').then( m => m.ResultPageModule)
+  },
+  {
+    path: 'socialmedia',
+    loadChildren: () => import('./socialmedia/socialmedia.module').then( m => m.SocialmediaPageModule)
+  },
 
 ];
 
