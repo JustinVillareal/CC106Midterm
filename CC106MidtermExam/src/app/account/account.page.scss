@@ -1,0 +1,244 @@
+ion-content{
+    --background: #6a5adf;
+}
+.container {
+    text-align: center;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 17%;
+    background: #ffff;
+    height: 77rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.image1{
+    height: 130px;
+    width: 130px;
+    margin-top: 9%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: solid 8px;
+    border-color: #6a5adf;
+    border-radius: 100px;
+}
+.name{
+    margin-top: 25%;
+    color: #000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ion-col {
+    background-color:#6a5adf;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+}
+#corner1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#corner2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+ion-grid{
+    padding: 15px;
+}
+#icon1{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+.image2{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.text1{
+    color: #6a5adf;
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.div1{
+    height: 30rem;
+    width: 21rem;
+    background: #e9e5fb;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.div2{
+    height: 40px;
+    width: 125px;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+}
+ion-list{
+    border-radius: 20px;
+    height: 50px;
+    background: #fff;
+}
+ion-select{
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    justify-content: center;
+}
+.text2{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1.4rem;
+    color: #000;
+    padding-top: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+}
+.quizno{
+    color: #6a5adf;
+    margin-left: 20px;
+}
+
+
+.circle-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #6a5added;
+  }
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 4s;
+    transform: rotate(135deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #e9e5fb;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #000;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+.div3{
+    background: #fff;
+    height: 90px;
+    width: 135px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 35px;
+    border-radius: 20px;
+    color: #6a5adf;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.div4{
+    background: #6a5adf;
+    height: 90px;
+    width: 135px; 
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.text3{
+    line-height: 1px;
+}
+.text4{
+    line-height: 1px;
+}
+.stats{
+    height: 14rem;
+    width: 21rem;
+    background: #e9e5fb;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.info1{
+    background: #6a5adf;
+    height: 2rem;
+    width: 19rem;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-left:20px;
+    text-align: left;
+    padding-left: 15px;
+}
+.info2{
+    background: #6a5adf;
+    height: 2rem;
+    width: 10rem;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-left:20px;
+    text-align: left;
+    padding-left: 15px;
+}
+.info3{
+    background: #6a5adf;
+    height: 2rem;
+    width: 15rem;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-left:20px;
+    text-align: left;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+.statistics{
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.p1{
+    padding-top: 8px;
+}
+ 
