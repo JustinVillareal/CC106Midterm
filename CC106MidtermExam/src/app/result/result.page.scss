@@ -23,3 +23,17 @@ ion-toolbar{
     align-items: center;
     display: flex;
   }
+  ion-icon {
+    --background: #E2A946;
+  color: #e8d4a3;
+  }
+  ion-fab-button {
+    --background: #52221F;
+  }
+  h6 {
+    text-align: right;
+    color: #e8d4a3;
+    margin-top: 65px;
+    font-size: 11px;
+    padding-right: 11px;
+  }
