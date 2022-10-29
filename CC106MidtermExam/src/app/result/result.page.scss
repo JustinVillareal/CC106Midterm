@@ -1,9 +1,9 @@
 ion-content{
-	--background: #2f191b;
+	--background: #6a5adf;
 }
 ion-toolbar{
-	--background: #52221f;
-  color: #e8d4a3;
+	--background: #fff;
+  color: #6a5adf;
 }
 #trophy{
     display: flex; 
@@ -14,26 +14,26 @@ ion-toolbar{
     margin-top: 40px;
   }
   ion-item {
-    --background: #52221f;
-  color: #e8d4a3;
+    --background: #fff;
+  color: #6a5adf;
   }
   ion-button {
-    --background: #e2a946;
-    color: #931c19;
+    --background: #e9e5fb;
+    color: #000;
     align-items: center;
     display: flex;
   }
   ion-icon {
-    --background: #E2A946;
-  color: #e8d4a3;
+    --background: #6a5adf;
+  color: #6a5adf;
   }
   ion-fab-button {
-    --background: #52221F;
+    --background: #fff;
   }
   h6 {
     text-align: right;
-    color: #e8d4a3;
-    margin-top: 65px;
+    color: #fff;
+    margin-top: 75px;
     font-size: 11px;
     padding-right: 11px;
   }

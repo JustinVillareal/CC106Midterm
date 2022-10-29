@@ -1,11 +1,18 @@
+ion-content{
+	--background: #6a5adf;
+}
 ion-card{
-	--background: #52221f;
+	--background: #fff;
+}
+ion-toolbar{
+	--background: #fff;
+  color: #6a5adf;
 }
 ion-card img{
 	width: 100%;
 }
 h2,h3{
-  color: #e8d4a3;
+  color: #6a5adf;
 }
 
 #start-button{
@@ -13,8 +20,8 @@ h2,h3{
   align-items: center;
   justify-content: center;
   padding-bottom: 35px;
-  --background: #e2a946;
-    color: #931c19;
+  --background: #6a5adf;
+    color: #000;
 }
 ion-grid{
   display: flex; 

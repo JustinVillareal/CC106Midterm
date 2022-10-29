@@ -6,7 +6,16 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
-  }
+  },
+  {
+    path: 'account',
+    loadChildren: () => import('../account/account.module').then( m => m.AccountPageModule)
+  },
+  {
+    path: 'leaderboards',
+    loadChildren: () => import('../leaderboards/leaderboards.module').then( m => m.LeaderboardsPageModule)
+  },
+
 ];
 
 @NgModule({
