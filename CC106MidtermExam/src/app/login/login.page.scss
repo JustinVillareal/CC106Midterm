@@ -4,6 +4,10 @@ ion-content{
 ion-card{
 	--background: #52221f;
 }
+
+ion-card img{
+	width: 100%;
+}
 ion-list{
     background-color: #931c19;
 }
@@ -14,12 +18,15 @@ ion-item{
 
 ion-button{
 	--background: #e2a946;
-    color: #e8d4a3;
+    color: #f5e9c9;
+    margin: 20px;
 }
 h2{
     color: #e8d4a3;
 }
-ion-grid{
-    display: flex; 
+.container{
+    display: flex;
     justify-content: center;
-  }
+    align-items: center;
+    height: 100%;
+}

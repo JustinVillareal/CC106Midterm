@@ -1,4 +1,4 @@
-on-content{
+ion-content{
 	--background: #2f191b;
 }
 ion-card{
@@ -7,8 +7,9 @@ ion-card{
 ion-card img{
 	width:100%;
 }
-ion-list{
-    background-color: #931c19;
+ion-toolbar{
+    --background: #931c19;
+    color: #e8d4a3;
 }
 ion-item{
 	--background: #931c19;
@@ -18,14 +19,13 @@ ion-item{
 ion-button{
 	--background: #e2a946;
     color: #faedcb;
-    margin: 20px;
 }
-h2{
+h2, h3{
     color: #e8d4a3;
 }
-.container{
+ion-grid{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
