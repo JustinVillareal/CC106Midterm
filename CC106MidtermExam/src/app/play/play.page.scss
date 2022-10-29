@@ -1,0 +1,31 @@
+on-content{
+	--background: #2f191b;
+}
+ion-card{
+	--background: #52221f;
+}
+ion-card img{
+	width:100%;
+}
+ion-list{
+    background-color: #931c19;
+}
+ion-item{
+	--background: #931c19;
+    color: #e8d4a3;
+}
+
+ion-button{
+	--background: #e2a946;
+    color: #faedcb;
+    margin: 20px;
+}
+h2{
+    color: #e8d4a3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

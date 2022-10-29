@@ -1,21 +1,13 @@
-ion-content{
-	--background: #2f191b;
-}
-ion-toolbar{
-	--background: #52221f;
-  color: #e8d4a3;
-}
 ion-card{
 	--background: #52221f;
+}
+ion-card img{
+	width: 100%;
 }
 h2,h3{
   color: #e8d4a3;
 }
-#kamusta{
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-}
+
 #start-button{
   display: flex; 
   align-items: center;
