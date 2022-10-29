@@ -1,0 +1,22 @@
+ion-card{
+	--background: #CD9A59;
+    color: #FFF9DF;
+}
+ion-toolbar{
+	--background: #52221f;
+  color: #e8d4a3;
+}
+ion-content {
+    --background: #2f191b;
+}
+ion-item {
+    --background: #CD9A59;
+}
+#submit-button{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    --background: #e2a946;
+      color: #931c19;
+}

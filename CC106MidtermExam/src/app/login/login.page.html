@@ -1,9 +1,24 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-</ion-content>
+<ion-app class="md">
+  <ion-content>
+    <div class="container">
+      <ion-card>
+        <img alt="Welcome" src="assets/welcome.gif"/>
+        <ion-card-header>
+          <ion-card-title><h2>Welcome! to the Quiz Application</h2></ion-card-title>
+        </ion-card-header>
+          <ion-list lines="none">
+            <ion-item>
+              <ion-label position="stacked">Username</ion-label>
+              <ion-input [clearInput]="true" placeholder="Enter your Username" value=""></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="stacked">Password</ion-label>
+              <ion-input type="password" placeholder="Enter your Password"></ion-input>
+            </ion-item>
+          </ion-list>
+          <ion-button routerLink="/home" size="full">Login</ion-button>
+          <ion-button size="full" fill="clear">Register</ion-button>
+        </ion-card>
+      </div>
+  </ion-content>
+</ion-app>

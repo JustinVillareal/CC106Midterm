@@ -5,5 +5,37 @@
 </ion-header>
 
 <ion-content>
-
+  <div class="share">
+    <h6>Share score</h6>
+  </div>
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="share-social-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="bottom">
+      <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+  <div id="trophy">
+  <ion-img src="assets/trophy2.png" alt="trophy"></ion-img>
+</div>
+<ion-item>
+  <ion-label>Maling sagot</ion-label>
+  <ion-badge color="warning">2</ion-badge>
+</ion-item>
+<ion-item>
+  <ion-label>Tamang sagot</ion-label>
+  <ion-badge color="warning">3</ion-badge>
+</ion-item>
+<ion-item>
+  <ion-label>RESULT</ion-label>
+  <ion-badge color="warning">3/5</ion-badge>
+</ion-item>
+<ion-button>Isubmit</ion-button>
 </ion-content>
