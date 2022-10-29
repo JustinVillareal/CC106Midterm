@@ -1,0 +1,25 @@
+ion-content{
+	--background: #2f191b;
+}
+ion-toolbar{
+	--background: #52221f;
+  color: #e8d4a3;
+}
+#trophy{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+  }
+  ion-item {
+    --background: #52221f;
+  color: #e8d4a3;
+  }
+  ion-button {
+    --background: #e2a946;
+    color: #931c19;
+    align-items: center;
+    display: flex;
+  }
